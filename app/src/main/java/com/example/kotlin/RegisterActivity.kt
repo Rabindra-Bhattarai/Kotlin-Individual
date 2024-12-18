@@ -31,9 +31,9 @@ class RegisterActivity : AppCompatActivity() {
         submitButton = findViewById(R.id.EditRegisterBtn)
         spinner = findViewById(R.id.editSelectPlace)
 
-        val cities = listOf("Kathmandu", "Bhagalpur", "Lalita")
+        val cities = listOf("Kathmandu", "Bhaktapur", "Lalitpur")
         val adapter = ArrayAdapter(this,android.R.layout.simple_spinner_item, cities)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        adapter.setDropDownViewResource(andR.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
 
 
