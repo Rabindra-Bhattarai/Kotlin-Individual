@@ -18,3 +18,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+//It is for splach screen
